@@ -4,15 +4,134 @@
     box-sizing: border-box;
 }
 
-.container-flex{
+.flex{
     display: flex;
 }
 
+.flex-center{
+    justify-content: center;
+}
+
+header{
+    background-color: lightgrey;
+    padding-bottom: 20px;
+}
+
 nav{
-    width: 80%;
+    min-height: 60px;
+    padding: 20px;
+    justify-content: center;
+    background-color: #3161E0;
+    color: white;
+    width: 100%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+ul{
+    width: 100%;
 }
 
 li{
     list-style: none;
     display: inline-block;
+    padding: 0 20px ;
+}
+
+.nav-main{
+    flex-basis: 50%;
+}
+
+.nav-aside{
+    flex-basis: 25%;
+}
+
+.single-box{
+    background-color: palevioletred;
+    min-height: 400px;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    justify-content: center
+}
+
+ul{
+        align-self: center;
+}
+
+section{
+    min-height: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.section-grey{
+    background-color: lightgray;
+}
+
+.section-white{
+    background-color: white;
+}
+
+.section-black{
+    background-color: #23272A;
+}
+
+.box-big{
+    width: 50%;
+    background-color: yellow;
+}
+
+.box-small{
+    width: 30%;
+    background-color: pink;
+}
+
+.single-box-2{
+    width: 80%;
+    background-color: green;
+    min-height: 600px;
+    margin: auto;
+
+}
+
+.ft-big-box{
+    width: 25%;
+    background-color: coral;
+}
+
+.ft-small-box{
+    width: 13.75%;
+    background-color: aqua;
+    border: dotted black;
+}
+
+hr{
+    color: white;
+}
+
+.bottom-div{
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 170px;
+}
+
+.logo-box{
+    width: 40%;
+    background-color: chocolate;    
+}
+
+.registrati-box{
+    width: 40%;
+    background-color: chocolate;
+    text-align: end;
 }
